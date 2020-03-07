@@ -12,7 +12,7 @@ from itertools import cycle
 client = commands.Bot(command_prefix='.')
 
 TOKEN = 'NjgzMjIyOTU0OTA5NDk5NDMw.XlqomA.dyXMFHmJ6FkyPdlEr-y65QmhoGM'
-
+DEV_TOKEN ='NjgzOTcwMTQxNzUwNTU4NzUz.XmODag.pgf4Hg_U4_FpSocLde9CUrCYAuk'
 
 """                
 id's
@@ -85,7 +85,7 @@ Initialisation
 async def on_ready():
     print('Bot is ready!')
     submission.start()
-    await client.change_presence(activity=discord.Game(name='Stan ©'))
+    await client.change_presence(activity=discord.Game(name='Stan is gey'))
 
 
 """                
@@ -344,4 +344,4 @@ On voice chat connect
 
 
 client.loop.create_task(log())
-client.run(TOKEN)
+client.run(DEV_TOKEN)
