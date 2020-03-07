@@ -1,3 +1,3 @@
-FROM 
+FROM ubuntu:18.04
 
 # Developing docker file
